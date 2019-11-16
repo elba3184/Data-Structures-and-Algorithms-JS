@@ -24,7 +24,7 @@ class Stack {
     // pop(): removes and returns the last inserted element
     pop() { 
         // Returns undefined if stack is empty 
-        if (this.items.length == 0) {
+        if (this.isEmpty()) {
             return "undefined"; 
         }
         return this.items.pop(); 
