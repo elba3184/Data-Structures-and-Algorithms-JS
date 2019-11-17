@@ -1,5 +1,5 @@
 // Data Structure: Linkedlist
-// Resources: UF COP3530 notes and geekforgeeks.com
+// Resources: UF COP3530 notes and geekforgeeks.org
 /*
 * A node contains a data item, 
 * it can contain reference to the next node
