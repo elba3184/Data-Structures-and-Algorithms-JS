@@ -1,10 +1,12 @@
 // Data Structure: Linkedlist
 // Resources: UF COP3530 notes and geekforgeeks.org
+
 /*
 * A node contains a data item, 
 * it can contain reference to the next node
 * and can contain a reference to the previous ndoe
 */
+
 class Node { 
     constructor(element) { 
         this.element = element; 
@@ -17,6 +19,7 @@ class Node {
 * Elements can be added/removed from a known location 
 * without shifting the elements; linked together using memory references
 */
+
 class LinkedList { 
     constructor() { 
         this.head = null; 
@@ -69,9 +72,9 @@ class LinkedList {
 
     //Removes and returns an element from the list from the specified index
     removeFrom(index) { 
-        if (index > 0 && index > this.size) 
+        if (index > 0 && index > this.size) {
             return -1; 
-        else { 
+        } else { 
             var currentNode, previousNode, iterator = 0; 
             currentNode = this.head; 
             previousNode = currentNode; 
@@ -130,8 +133,7 @@ class LinkedList {
     } 
 
     // Returns size of list 
-    size_of_list() 
-    { 
+    size_of_list() { 
         return this.size; 
     } 
 

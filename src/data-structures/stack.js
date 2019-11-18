@@ -44,6 +44,7 @@ class Stack {
     size() {
         return this.items.length; 
     }
+    
     // printStack(): returns all the times in the stack 
     printStack() { 
         var str = ""; 
